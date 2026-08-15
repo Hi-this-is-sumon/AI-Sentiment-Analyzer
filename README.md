@@ -1,4 +1,4 @@
-```markdown
+
 # 🧠 AI Sentiment Analyzer — Full-Stack ML Project
 
 > **IBM Industrial Training Project** | Developed by **Sumon Mandal**
