@@ -11,7 +11,6 @@ A full-stack sentiment analysis web application that classifies text as **Positi
 
 *   **Frontend (Vercel):** [https://ai-sentiment-analyzer-ochre.vercel.app/](https://ai-sentiment-analyzer-ochre.vercel.app/)
 *   **Backend API (Render):** [https://sentiment-api-backend-1ml0.onrender.com/](https://sentiment-api-backend-1ml0.onrender.com/)
-*   **Interactive Swagger API Docs:** [https://sentiment-api-backend-1ml0.onrender.com/docs](https://sentiment-api-backend-1ml0.onrender.com/docs)
 
 ---
 
