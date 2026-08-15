@@ -1,7 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "frontend/**", "use": "@vercel/static" }
+    { "src": "package.json", "use": "@vercel/static-build", "config": { "distDir": "frontend" } }
   ],
   "routes": [
     { "src": "/(.*\\.(css|js|png|jpg|jpeg|svg|ico))", "dest": "/frontend/$1" },
