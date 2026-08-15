@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "frontend/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*\\.(css|js|png|jpg|jpeg|svg|ico))", "dest": "/frontend/$1" },
+    { "handle": "filesystem" },
+    { "src": "^/favicon.ico$", "dest": "/frontend/favicon.ico" },
+    { "src": "/(.*)", "dest": "/frontend/index.html" }
+  ]
+}
