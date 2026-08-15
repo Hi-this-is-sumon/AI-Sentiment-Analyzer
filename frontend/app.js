@@ -1,7 +1,4 @@
-
-
-// Keep the backend URL in exactly one place.
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://sentiment-api-backend-1ml0.onrender.com";
 
 const textarea = document.getElementById("sentence-input");
 const charCount = document.getElementById("char-count");
