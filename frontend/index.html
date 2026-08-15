@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Sentiment Analyzer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="card">
+    <header class="card-header">
+      <h1>AI Sentiment Analyzer</h1>
+      <p class="subtitle">
+        Enter a sentence below to see whether it reads as Positive or Negative.
+      </p>
+    </header>
+
+    <section class="input-section">
+      <label for="sentence-input" class="input-label">Enter your sentence</label>
+      <textarea
+        id="sentence-input"
+        placeholder="e.g. I really enjoyed this product."
+        maxlength="1000"
+        rows="4"
+      ></textarea>
+      <div class="char-count"><span id="char-count">0</span> / 1000</div>
+
+      <button id="predict-btn" type="button">
+        <span id="btn-text">Predict Sentiment</span>
+        <span id="btn-spinner" class="spinner hidden"></span>
+      </button>
+    </section>
+
+    <section id="error-box" class="error-box hidden"></section>
+
+    <section id="result-box" class="result-box hidden">
+      <div id="result-label" class="result-label"></div>
+      <div id="result-confidence" class="result-confidence"></div>
+      <div class="confidence-bar-track">
+        <div id="confidence-bar-fill" class="confidence-bar-fill"></div>
+      </div>
+    </section>
+
+    <footer class="footer-note">
+      !@Sumon IBM industrial training project 
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

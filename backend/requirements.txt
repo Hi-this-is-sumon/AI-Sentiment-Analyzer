@@ -1,0 +1,10 @@
+# --- Required to RUN the API (app.py) ---
+fastapi
+uvicorn
+pydantic>=2.0.0
+scikit-learn
+
+# --- Additionally required to TRAIN the model (train_model.py) ---
+pandas
+matplotlib
+seaborn
