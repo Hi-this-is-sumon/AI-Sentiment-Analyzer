@@ -1,9 +1,7 @@
-// app.js
-// Handles user interaction and communicates with the FastAPI backend.
 
-// Keep the backend URL in exactly one place. Read from a meta tag when deployed.
-const metaApi = document.querySelector('meta[name="api-url"]');
-const API_URL = (metaApi && metaApi.content) ? metaApi.content : "http://127.0.0.1:8000";
+
+// Keep the backend URL in exactly one place.
+const API_URL = "http://127.0.0.1:8000";
 
 const textarea = document.getElementById("sentence-input");
 const charCount = document.getElementById("char-count");
